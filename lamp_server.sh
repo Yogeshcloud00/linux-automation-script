@@ -14,8 +14,7 @@
 echo “Your installation is started”
 
 # updating the system
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
 # Installing the apache 2 
 sudo apt install apache2
